@@ -1,6 +1,8 @@
 <template>
+  <h1>Meymoun Boualaoui</h1>
+  <p>Creative Developper</p>
   <nav>
-    <router-link to="/projets">Projets</router-link> |
+    <router-link to="/projets">Projets</router-link>
     <router-link to="/about">A propos</router-link>
   </nav>
   <router-view />
