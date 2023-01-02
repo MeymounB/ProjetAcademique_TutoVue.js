@@ -24,8 +24,8 @@ export default {
 		return {
 			items: [
 				{ icon: 'home', text: this.$t('drawer.home'), action: '/home' },
-				{ icon: 'history', text: this.$t('drawer.history'), action: '/history' },
-				{ icon: 'help', text: this.$t('drawer.about'), action: '/about' },
+				{ icon: 'projets', text: this.$t('drawer.projets'), action: '/projets' },
+				{ icon: 'conctact', text: this.$t('drawer.contact'), action: '/contact' },
 			]
 		}
 	}
