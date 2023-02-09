@@ -6,7 +6,7 @@
 		<h2>Mes projets</h2>
 		<ul>
 			<li class="div1 firstEffect">
-				<a href="#">
+				<a href="https://github.com/Bee-Driver">
 					<p>Bee Driver</p>
 				</a>
 			</li>
@@ -23,7 +23,7 @@
 
 			</li>
 			<li class="div4 box">
-				<a href="/">
+				<a href="https://meymounboualaoui.fr/">
 					<p>Portfolio</p>
 				</a>
 

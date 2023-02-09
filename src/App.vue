@@ -15,7 +15,7 @@
 
 <script>
 import NavBar from "./components/NavBar.vue";
-import Intros from "./components/Intros.vue";
+import Intros from "./components/MyIntros.vue";
 
 export default {
   name: "app",

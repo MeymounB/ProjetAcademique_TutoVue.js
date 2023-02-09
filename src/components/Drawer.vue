@@ -4,7 +4,7 @@
 		<v-list dense>
 			<template v-for="(item, i) in items">
 				<v-divider dark v-if="item.divider" :key="i"></v-divider>
-				<v-list-item ripple :to="item.action" :key="is" v-else>
+				<v-list-item ripple :to="item.action" :key="i" v-else>
 					<v-list-item-action>
 						<v-icon>{{ item.icon }}</v-icon>
 					</v-list-item-action>
@@ -25,7 +25,10 @@ export default {
 			items: [
 				{ icon: 'home', text: this.$t('drawer.home'), action: '/home' },
 				{ icon: 'projets', text: this.$t('drawer.projets'), action: '/projets' },
-				{ icon: 'conctact', text: this.$t('drawer.contact'), action: '/contact' },
+				{ icon: 'contact', text: this.$t('drawer.contact'), action: '/contact' },
+				{ icon: 'history', text: this.$t('drawer.my_history'), action: '/history' },
+				{ icon: 'clock', text: this.$t('drawer.my_clock'), action: '/clock' },
+
 			]
 		}
 	}
